@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Generate QR">
+    <meta name="keywords" content="Generate QR">
+    <meta name="author" content="Ing. Jefferson Merchan">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loucos por vendas</title>
+    <link rel="shortcut icon" href="./assest/img/utilities/favicon.png">
+    <link href="./assest/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container py-4 text-center">
+
+        <h1>Criar QR</h1>
+
+        <div class="row my-4">
+            <div class="col-sm-12">
+                <input id="txtURL" class="form-control form-control-lg" type="text">
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-sm-12">
+                <button id="btnCreate" type="button" class="btn btn-success">Criar</button>
+                <button id="btnClear" type="button" class="btn btn-secondary">limpar</button>
+            </div>
+        </div>
+        <div id="rowQR" class="row my-4 text-center">
+            <div class="col-sm-12 text-center">
+                <div id="qrcode"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assest/js/bootstrap.bundle.min.js"></script>
+    <script src="./assest/js/jquery-3.7.1.min.js"></script>
+    <script src="./assest/js/qrcode.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
