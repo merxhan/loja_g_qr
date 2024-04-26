@@ -13,7 +13,7 @@ $(function () {
             text: url,
             width: 300,
             height: 300,
-            colorDark: "#5868bf",
+            colorDark: "#000000",
             colorLight: "#ffffff",
             correctLevel: QRCode.CorrectLevel.H
         });
